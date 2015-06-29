@@ -1,0 +1,6 @@
+image: ubuntu:14.04
+git:
+  path: github.com/jaythomason/drone-test
+script:
+  echo "test"
+  lsb_release -a
